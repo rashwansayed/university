@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="universitystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="about-header">
+        <nav>
+           <a href=""><img src="uni-img/University logo with laurel wreath Logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="ourcourses.html">Courses</a></li>
+                    <li><a href="blogs.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTATUS</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+    <section class="contactus">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13837.069350747237!2d30.92713600816007!3d29.885396604508905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145855405a3f71bb%3A0x56a1433adb8ff16d!2z2K_YrNmE2Kkg2KjYp9mE2YXYstiMINmC2LPZhSDYq9in2YYgNiDYo9mD2KrZiNio2LHYjCDZhdit2KfZgdi42Kkg2KfZhNis2YrYstip!5e0!3m2!1sar!2seg!4v1702306816533!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contactus2">
+        <div class="row">
+            <div class="information contact-icon">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span><h5>October 6 Build your house</h5></span>
+                    <span><p>Giza Governorate, Egypt</p></span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span><h5>(+20) 01140048318 </h5></span>
+                    <span><p>Monday To Saturday, 10AM TO 6PM</p></span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span><h5>mdhtsid62@gmail.com</h5></span>
+                    <span><p>Email Us To Help You</p></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="comment-blogs information">
+            <h3>Write Your Comment</h3>
+            <form class="comment">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="email" placeholder="Enter Your Email">
+                <textarea rows="5"></textarea>
+                <button class="btn">Post Comment</button>
+            </form>
+          </div>
+        </div>   
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia hic sapiente quod. Tempore, natus! Libero distinctio minima quidem voluptas iure,<br> laudantium unde sit aspernatur, cumque eaque sequi obcaecati at.</P>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made By Islam Mohamed <i class="fa fa-heart-o" style="color: red;"></i> Thank You</p>
+
+    </section>
+
+
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function hidemenu(){
+            navLink.style.right="-200px"
+        }
+        function showmenu(){
+            navLink.style.right="0px"
+        }
+    </script>
+</body>
+</html>
